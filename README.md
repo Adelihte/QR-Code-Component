@@ -5,9 +5,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](QR Code Component made with html and CSS)
-  - [Screenshot](<img src="https://i.ibb.co/PskLhdbq/QR-site-screenshot.jpg" alt="QR-site-screenshot" border="0">)
+  - [Screenshot](<img src="https://i.ibb.co/BKqr4s9N/image.png" alt="image" border="0">)
   - [Built with](html markup language and CSS styling language)
-  - [What I learned](using positioning and flexbox to arrange items and center them)
+  - [What I learned](using flexbox and responsive units)
   - [Continued development](#continued-development)
 
   - [AI Collaboration](none, asked some questions on GPT)
@@ -19,14 +19,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](<img src="https://i.ibb.co/PskLhdbq/QR-site-screenshot.jpg")
+![](<img src="https://i.ibb.co/BKqr4s9N/image.png" alt="image" border="0">)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ADESTARR/QR-Code-Component.git)
-- Live Site URL: [Add live site URL here](https://adestarr.github.io/QR-Code-Component/)
+- Solution URL: [Add solution URL here](https://github.com/Adelihte/QR-Code-Component.git)
+- Live Site URL: [Add live site URL here](https://adelihte.github.io/QR-Code-Component/)
 
 ## My process
 
@@ -35,14 +35,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS positioning
+- CSS responsive units
 
 
 ### What I learned
 
-I learnt how to center elements using flexbox, margin: Y auto; (auto helps me center a block element)
-i used positioning to arrange the contents to the point they were in the desktop picture, but i really had a major challenge
-I opened my live site on a mobile phone, and it was scattered, even though it's well arranged on any browser via desktop. After researching, i found out that the site isn't a responsive one, i am having challenge making it responsive😪
+I learnt how to center elements using flexbox
+i also learnt basics responsive principles
 
 ### Continued development
 
@@ -58,6 +57,6 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 - What worked well? What didn't? (i wasn't still able to make a responsive website)
 
 ## Author
-- Website - [ADEBISI DANIEL](https://adestarr.github.io/QR-Code-Component/)
+- Website - [ADEBISI DANIEL](https://adelihte.github.io/QR-Code-Component/)
 - Frontend Mentor - [@Adelihte](https://www.frontendmentor.io/profile/Adelihte)
 - Twitter - [@Adelihte](https://www.twitter.com/Adelihte)

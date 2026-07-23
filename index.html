@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>QR code component using flexbox and positioning</title>
+
+  <style>
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Outfit, sans-serif;
+      min-height: 100vh;
+      background: hsl(212, 45%, 89%);
+    }
+
+    main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-grow: 1;
+    }
+
+    .QRcard {
+      background: hsl(0, 0%, 100%);
+      width: 30%;
+      max-width: 320px;
+      border-radius: 20px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .Qcard {
+        min-width: 25%;
+      }
+    }
+
+    .QRimage {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    h3, p {
+      color: hsl(216,  15%, 48%);
+      margin: 15px auto;
+      line-height: 1.25;
+      width: 92%;
+    }
+
+    h3 {
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.35
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.775rem;
+    }
+
+    footer a {
+      margin: 0 7px;
+      text-decoration: none;
+      color: hsl(240, 100%, 50%);
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main>
+
+      <section class ="QRcard">
+        <img class="QRimage" src="https://i.ibb.co/1t09c7cw/image-qr-code.png" alt="QR code">
+        <h3>
+          Improve your front-end skills by building projects
+        </h3>
+        <p>
+          Scan the QR code to visit Frontend Mentor
+          and take your coding skills to the next level
+        </p>
+      </section>
+
+  </main>
+
+  <footer>
+    challenge by <a href="https://www.frontendmentor.io/" target ="_blank">Frontend Mentor</a>
+    coded by <a href="https://www.github.com/Adelihte" target ="_blank"> Adelihte </a>
+
+</body>
+
+</html>
